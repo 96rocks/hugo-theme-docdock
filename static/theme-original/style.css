@@ -14,7 +14,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.ttf) format("truetype"); }
+  src: local("Lato Light"), local("Lato-Light"), url(../fonts/Lato-Light.woff2) format("woff2"), url(../fonts/Lato-Light.ttf) format("truetype"); }
 @font-face {
   font-family: "Lato";
   font-style: normal;
@@ -318,7 +318,7 @@ figcaption h4 {
 
 .footline {
   margin-top: 3rem;
-  border-top: 1px dashed #183f81;
+  border-top: 1px dashed #4fbfa8;
   font-size: smaller; }
 
 #top-github-link, #body #breadcrumbs {
@@ -345,14 +345,14 @@ body #chapter h1 {
   font-size: 3.5rem; }
 
 a {
-  color: #2053AB;
+  color: #4fbfa8;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   -ms-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
 a:hover {
-  color: #238fbd;
+  color: #326565;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   -ms-transition: color 0.15s ease;
@@ -396,10 +396,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(0, 169, 218, 0.7); }
 
 #header-wrapper {
-  background: #2053AB;
+  background: #4fbfa8;
   color: #fff;
   text-align: center;
-  border-bottom: 1px solid #183f81;
+  border-bottom: 1px solid #326565;
   padding: 1rem; }
 
 #header a {
@@ -415,8 +415,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 .searchbox {
   margin-top: 1rem;
   position: relative;
-  border: 1px solid #6795e3;
-  background: #183f81;
+  border: 1px solid #fff;
+  background: #326565;
   border-radius: 4px; }
 
 .searchbox label {
@@ -703,14 +703,14 @@ hr {
   padding: 25px;
   float: left;
   clear: both;
-  background: #183f81;
+  background: #4fbfa8;
   color: #fff; }
 
 #body a.anchor-link {
   color: #ccc; }
 
 #body a.anchor-link:hover {
-  color: #183f81; }
+  color: #326565; }
 
 #body-inner .tabs-wrapper.ui-theme-badges {
   background: #1d1f21; }
@@ -749,7 +749,7 @@ td {
   color: #323232; }
 
 .button {
-  background: #183f81;
+  background: #4fbfa8;
   color: #fff;
   box-shadow: 0 3px 0 #00a5d4; }
 
@@ -795,7 +795,7 @@ td {
 
 .bullet-icon {
   float: left;
-  background: #183f81;
+  background: #4fbfa8;
   padding: 0.875rem;
   width: 3.5rem;
   height: 3.5rem;
@@ -805,7 +805,7 @@ td {
   text-align: center; }
 
 .bullet-icon-1 {
-  background: #183f81; }
+  background: #4fbfa8; }
 
 .bullet-icon-2 {
   background: #00f3d8; }
@@ -1109,7 +1109,7 @@ pre .copy-to-clipboard:hover {
   margin-right: 1rem !important; }
 
 #sidebar {
-  background-color: #2053AB;
+  background-color: #326565;
   position: fixed;
   top: 0;
   width: 300px;
@@ -1120,7 +1120,7 @@ pre .copy-to-clipboard:hover {
   line-height: 27px;
   -webkit-font-smoothing: antialiased; }
   #sidebar a {
-    color: #fff;
+    color: #ccc;
     -webkit-transition: color 0.15s ease;
     -moz-transition: color 0.15s ease;
     -ms-transition: color 0.15s ease;
@@ -1134,7 +1134,7 @@ pre .copy-to-clipboard:hover {
   #sidebar a.subtitle {
     color: rgba(204, 204, 204, 0.6); }
   #sidebar hr {
-    border-bottom: 1px solid #2a232f; }
+    border-bottom: 1px solid #325865; }
   #sidebar a.padding {
     padding: 0 1rem; }
   #sidebar h5 {
@@ -1155,7 +1155,7 @@ pre .copy-to-clipboard:hover {
     font-size: 80%; }
   #sidebar .parent li,
   #sidebar .active li {
-    border-left: 1px solid gray; }
+    border-left: 1px dotted #444; }
   #sidebar h5.parent a {
     background: #201b24;
     color: #d9d9d9 !important; }
@@ -1213,7 +1213,7 @@ pre .copy-to-clipboard:hover {
       -ms-transition: color 0.15s ease;
       transition: color 0.15s ease; }
     #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-      background: #183f81;
+      background: #251f29;
       margin-left: -1rem;
       margin-right: 0rem;
       padding-left: 1rem;
@@ -1251,12 +1251,12 @@ pre .copy-to-clipboard:hover {
     #sidebar ul li .read-icon {
       display: none;
       font-size: xx-small;
-      color: gray;
+      color: #326565;
       position: absolute;
       float: left;
       margin: 0;
-      margin-left: -17px;
-      margin-top: -18px; }
+      margin-left: -16px;
+      margin-top: -22px; }
     #sidebar ul li.visited > div > .read-icon {
       display: block; }
     #sidebar ul li.visited.active > div > .read-icon {

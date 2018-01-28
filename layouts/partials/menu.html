@@ -36,7 +36,7 @@
           {{- end}}
         {{- end}}
 
-        {{- if $showvisitedlinks}}<i class="fa fa-circle-thin read-icon"></i>{{end}}
+        {{- if $showvisitedlinks}}<i class="fa fa-check-square read-icon"></i>{{end}}
       </div>
       {{- if ne $numberOfPages 0 }}
         <ul>
@@ -73,7 +73,7 @@
           <a href="{{ .RelPermalink}}">
             {{safeHTML .Params.Pre}}{{.LinkTitle}}{{safeHTML .Params.Post}}
           </a>
-          {{- if $showvisitedlinks}}<i class="fa fa-circle-thin read-icon"></i>{{end}}
+          {{- if $showvisitedlinks}}<i class="fa fa-check-square read-icon"></i>{{end}}
         </div>
     </li>
      {{- end}}
